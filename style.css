@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+/* #one{ */
+  /* Color */
+  /* color: rgb(10, 11, 12); */
+  /* background-color: rgb(240, 240, 240); */
+
+  /* Width And Height */
+  /* width: 90%;
+  max-width: 500px; */
+  /* height: 100vh; */
+
+  /* Fonts */
+  /* font-size: 12px;
+  font-weight: 700;
+  font-family: Inter , sans-serif; */
+
+
+  /* Border */
+  /* border: 10px solid black;
+  padding: 20px;
+  margin: 20px auto;
+  box-sizing: border-box;
+} */
+
+/* .box{
+  width: 200px;
+  height: 150px;
+  border: 15px dashed blue;
+  padding: 10px;
+  margin: 15px;
+  box-sizing: border-box;
+ 
+} */
+
+/* .title{
+  background-color: red;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+  width: 70px;
+}
+
+.parent{
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  position:relative;
+
+}
+
+.child{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+  left: 30%;
+  top: 50%;
+
+} */
+
+/* body {
+  height: 250vh;
+}
+.parent2{
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+  position:sticky;
+  top: 0; 
+
+}*/
+
+/* .child2{
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  position: absolute;
+  left: 0;
+  top: 0;
+} */
+
+/* .fix{
+  position: fixed;
+  background-color: brown;
+  width: 100%;
+} */
+
+/* .title{
+  font-size: 50px;
+}
+
+.paragraph{
+  font-size: 20px;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 30px;
+  }
+  .paragraph {
+    font-size: 10px;
+  }
+}
+
+
+button {
+ color: brown;
+ transition: 300ms;
+} */
+
+/* button:hover {
+  opacity: 30%;
+  background-color: bisque;
+} */
+
+
+/* p::before{
+  content: "Hey My Name Is ";
+  background-color: blueviolet;
+  margin: 8px;
+  padding: 8px;
+} */
+
+p{
+  animation: pointdown 1000ms infinite alternate-reverse;
+}
+
+@keyframes pointdown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(16px);
+  }
+}
